@@ -3,7 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game.csproj", "{D4501B16-0604-4A7B-88EF-8E70BF0A1B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game.csproj", "{D4501B16-0604-4A7B-88EF-8E70BF0A1B96}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Game-SPA", "..\Game-SPA\", "{99716109-C8F0-4C7D-9E1D-5B8FC5042647}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52705"
+		Debug.AspNetCompiler.PhysicalPath = "..\Game-SPA\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52705\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52705"
+		Release.AspNetCompiler.PhysicalPath = "..\Game-SPA\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52705\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52705"
+		SlnRelativePath = "..\Game-SPA\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +36,10 @@ Global
 		{D4501B16-0604-4A7B-88EF-8E70BF0A1B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4501B16-0604-4A7B-88EF-8E70BF0A1B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4501B16-0604-4A7B-88EF-8E70BF0A1B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99716109-C8F0-4C7D-9E1D-5B8FC5042647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99716109-C8F0-4C7D-9E1D-5B8FC5042647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99716109-C8F0-4C7D-9E1D-5B8FC5042647}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{99716109-C8F0-4C7D-9E1D-5B8FC5042647}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
