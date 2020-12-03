@@ -25,4 +25,15 @@ export class NavComponent implements OnInit {
     });
   }
 
+  // tslint:disable-next-line: typedef
+  loggedIn(){
+    const token = localStorage.getItem('token');
+    return !!token;
+  }
+
+  // tslint:disable-next-line: typedef
+  logOut() {
+    localStorage.removeItem('token');
+    console.log('Log out');
+  }
 }
