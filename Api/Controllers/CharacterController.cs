@@ -37,8 +37,12 @@ namespace Api.Controllers
             var characterToCreate = new Character
             {
                 Nickname = characterForCreateDto.Nickname,
-                Cp = 1,
-                UserId = Convert.ToInt32(characterForCreateDto.UserId)
+                UserId = Convert.ToInt32(characterForCreateDto.UserId),
+                Level = 1,
+                Experience = 1,
+                FullHealth = 100,
+                FullMana = 100,
+                Cp = 1
             };
             
             await _repository.CreateCharacter(characterToCreate);
